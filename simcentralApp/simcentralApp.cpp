@@ -24,6 +24,18 @@ public:
 	}
 
 };
+class track {
+private:
+	int id;
+	char name,
+		track_class;
+public:
+	void get_track()
+	{
+
+		getchar();
+	}
+};
 
 void main()
 {
