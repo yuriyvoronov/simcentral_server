@@ -1,3 +1,2 @@
 ﻿  simcentralApp.cpp
-  simcentralApp.vcxproj -> C:\Users\гараж\Documents\Visual Studio 2015\Projects\simcentralApp\Debug\simcentralApp.exe
-  simcentralApp.vcxproj -> C:\Users\гараж\Documents\Visual Studio 2015\Projects\simcentralApp\Debug\simcentralApp.pdb (Full PDB)
+c:\users\гараж\documents\visual studio 2015\projects\simcentralapp\simcentralapp\tinyxml.h(52): fatal error C1083: Не удается открыть файл включение: tinystr.h: No such file or directory

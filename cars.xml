@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cars>
+<car>
+  <id>1</id>
+  <name>laferrari</name>
+  <class>g1</class>
+</car>
+<car>
+  <id>2</id>
+  <name>pagani_zonda</name>
+  <class>g1</class>
+</car>  
+<car>
+  <id>3</id>
+  <name>488_gt3</name>
+  <class>a</class>
+</car>  
+
+</cars>

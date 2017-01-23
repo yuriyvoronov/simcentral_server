@@ -4,14 +4,15 @@
 #include "stdafx.h"
 #include <iostream>
 #include <conio.h>
+#include "tinyxml.h"
 using namespace std;
 
 class car {
 	 
 public:
-	char name,
-		car_class;
-	void get_car(char name_ent, char car_class_ent)
+	char name[30],
+		car_class[20];
+	void get_car(char name_ent[30], char car_class_ent[20])
 	{
 		name = name_ent;
 		car_class = car_class_ent;
@@ -26,8 +27,8 @@ public:
 class track {
 private:
 	int id;
-	char name,
-		track_class;
+	char name[20],
+		track_class[20];
 public:
 	void get_track()
 	{
@@ -38,7 +39,7 @@ public:
 
 void main()
 {
-	char n, c;
+	char n[30], c[20];
 	car Car;
 	cout << "enter car name:\n";
 	cin >> n;
